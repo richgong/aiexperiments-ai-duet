@@ -1,0 +1,16 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+tensorflow = "==0.12.1"
+magenta = "==0.1.8"
+gunicorn = "==19.6.0"
+ipython = "==5.1.0"
+Flask = "==0.12"
+
+[requires]
+python_version = "2.7"
